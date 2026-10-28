@@ -49,3 +49,8 @@ Footer {
     text-style: bold;
     padding: 0 1;
 }
+
+ModalScreen {
+    background: rgba(0, 0, 0, 0.65);
+}
+

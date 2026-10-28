@@ -57,6 +57,13 @@ DEFAULT_THEME: Dict[str, Any] = {
         "alert_background": "#4D1A00",
         "alert_text_color": "#FFD166",
     },
+    "backdrop": {
+        "dim_opacity": 0.65,
+        "dimmed_text": "#3E4259",
+        "dimmed_border": "#1A1C28",
+        "dimmed_accent": "#663100",
+        "dimmed_canvas": "#0A0B0F",
+    },
 }
 
 def get_config_path() -> Path:
@@ -208,4 +215,8 @@ $text-regular: {p.get('text_regular', '#A6ADC8')};
 $text-muted: {p.get('text_muted', '#6C7086')};
 $status-error: {p.get('status_error', '#FF4D4D')};
 $status-success: {p.get('status_success', '#A6E3A1')};
+
+ModalScreen {
+    background: rgba(0, 0, 0, 0.65);
+}
 """
