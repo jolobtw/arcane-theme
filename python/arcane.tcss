@@ -1,0 +1,51 @@
+/*
+ * arcane.tcss
+ * Master Textual Stylesheet for Arcane Theme
+ */
+
+Screen {
+    background: #13141C;
+    color: #A6ADC8;
+}
+
+Header {
+    dock: top;
+    height: 2;
+    background: #13141C;
+}
+
+Footer {
+    dock: bottom;
+    height: 1;
+    background: #181A24;
+    color: #6C7086;
+}
+
+.pane {
+    border: round #2E3244;
+    background: #181A24;
+}
+
+.pane:focus-within {
+    border: round #FF7A00;
+}
+
+.badge {
+    background: #262938;
+    color: #6C7086;
+    padding: 0 1;
+}
+
+.badge-active {
+    background: #262938;
+    color: #FFD166;
+    text-style: bold;
+    padding: 0 1;
+}
+
+.badge-alert {
+    background: #4D1A00;
+    color: #FFD166;
+    text-style: bold;
+    padding: 0 1;
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Arcane Flame & Slate",
+  "version": "1.0.0",
+  "author": "jolobtw",
+  "description": "Unified Master Design Tokens for Tome and Terminal UI Apps with Live Auto-Sync",
+  "palette": {
+    "canvas_bg": "#13141C",
+    "panel_bg": "#181A24",
+    "selection_bg": "#262938",
+    "border_active": "#FF7A00",
+    "border_muted": "#2E3244",
+    "accent_flame": "#FF7A00",
+    "accent_flame_deep": "#E64A19",
+    "accent_amber": "#FFAF00",
+    "accent_gold": "#FFD166",
+    "gradient_start": "#FF4500",
+    "gradient_end": "#FFD166",
+    "alert_bg": "#4D1A00",
+    "text_bright": "#FFFFFF",
+    "text_regular": "#A6ADC8",
+    "text_muted": "#6C7086",
+    "status_error": "#FF4D4D",
+    "status_success": "#A6E3A1",
+    "status_info": "#89DCEB",
+    "folder_warm": "#C5A880"
+  },
+  "header": {
+    "star_glyph": "✦",
+    "star_color": "#FF7A00",
+    "title_glyph": "❖",
+    "title_glyph_in_gradient": true,
+    "title_gradient": ["#FF4500", "#FFD166"],
+    "separator_glyph": "❖",
+    "separator_color": "#6C7086",
+    "tagline_color": "#6C7086",
+    "tagline_italic": true,
+    "divider_glyph": "─",
+    "divider_color": "#2E3244",
+    "formula": "{star_glyph} {title_glyph} {title} {separator_glyph} {tagline}"
+  },
+  "badges": {
+    "background": "#262938",
+    "text_color": "#6C7086",
+    "active_text_color": "#FFD166",
+    "alert_background": "#4D1A00",
+    "alert_text_color": "#FFD166",
+    "padding_x": 1
+  },
+  "borders": {
+    "pane_border_style": "rounded",
+    "modal_border_style": "double",
+    "active_color": "#FF7A00",
+    "muted_color": "#2E3244"
+  }
+}
